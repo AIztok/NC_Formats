@@ -1,0 +1,36 @@
+ST
+** EDUCATIONAL EXAMPLE - NOT RELEASED FOR FABRICATION
+  DITWP-DEMO
+  NC1-001
+  1
+  S001
+  S235JR
+  1
+  PL10*140
+  B
+  262.00
+  140.00
+  0.00
+  0.00
+  10.00
+  0.00
+  78.50
+  2.00
+  0.00
+  0.00
+  0.00
+  0.00
+  SINGLE-SIDED STIFFENER
+  262 X 140 X 10; 35 CHAMFERS
+  ASSEMBLY LOCATION X=2000
+  WELDS SPECIFIED IN GUIDE
+** AK: anticlockwise outline; two 35 x 35 web-side root clearances
+AK
+  v 0.00u 35.00 0.00
+  v 35.00u 0.00 0.00
+  v 227.00u 0.00 0.00
+  v 262.00u 35.00 0.00
+  v 262.00u 140.00 0.00
+  v 0.00u 140.00 0.00
+  v 0.00u 35.00 0.00
+EN

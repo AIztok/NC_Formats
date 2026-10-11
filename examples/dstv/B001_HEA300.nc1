@@ -1,0 +1,51 @@
+ST
+** EDUCATIONAL EXAMPLE - NOT RELEASED FOR FABRICATION
+  DITWP-DEMO
+  NC1-001
+  1
+  B001
+  S235JR
+  1
+  HEA300
+  I
+  3000.00
+  290.00
+  300.00
+  14.00
+  8.50
+  27.00
+  88.30
+  1.72
+  0.00
+  0.00
+  0.00
+  0.00
+  HEA300 DEMO BEAM
+  S001 AT X=2000; SEE GUIDE
+  PU IS A FIT-UP MARK ONLY
+  NO WELD PROGRAM INCLUDED
+** BO: four web holes and four top-flange holes; all through holes
+BO
+  v 200.00u 90.00 22.00 0.00
+  v 200.00u 200.00 22.00 0.00
+  v 2800.00u 90.00 22.00 0.00
+  v 2800.00u 200.00 22.00 0.00
+  o 500.00u 75.00 22.00 0.00
+  o 500.00u 225.00 22.00 0.00
+  o 2500.00u 75.00 22.00 0.00
+  o 2500.00u 225.00 22.00 0.00
+** IK: clockwise web opening, 200 x 100; square corners for teaching
+IK
+  v 1200.00u 95.00 0.00
+  v 1200.00u 195.00 0.00
+  v 1400.00u 195.00 0.00
+  v 1400.00u 95.00 0.00
+  v 1200.00u 95.00 0.00
+** PU: stiffener web-contact footprint; this is not a cut or weld
+PU
+  v 1995.00u 49.00 0.00
+  v 1995.00u 241.00 0.00
+  v 2005.00u 241.00 0.00
+  v 2005.00u 49.00 0.00
+  v 1995.00u 49.00 0.00
+EN
